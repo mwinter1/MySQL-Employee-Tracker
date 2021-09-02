@@ -28,22 +28,21 @@ create table employee(
 
 INSERT INTO department (name)
 VALUES 
-("Sales"), 
-("Engineering"), 
-("Human Resources"), 
+("Executives"), 
 ("Legal"), 
-("Finance"), 
-("Artist");
+("Engineering"), 
+("Marketing"), 
+("Accounting"), 
+("Sales");
 
 INSERT INTO role (title, salary, department_id)
 VALUES 
-("CEO", 100000, 3), 
-("Software Developer", 70000, 2), 
-("Lawyer", 60000, 3), 
-("Lawyer", 60000, 4), 
-("Actuary", 60000, 5), 
-("Artist", 70000, 6), 
-("Salesperson", 40000, 1);
+("CEO", 1000000, 1), 
+("Lawyer", 700000, 2), 
+("Developer", 600000, 3), 
+("Ad Designer", 60000, 4), 
+("Accountant", 75000, 5), 
+("Salesperson", 70000, 6), 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
