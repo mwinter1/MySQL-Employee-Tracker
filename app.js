@@ -1,6 +1,8 @@
 const mysql = require('mysql');
 const inquirer = require('inquirer');
 const { printTable } = require('console-table-printer');
+
+// Global Variables
 let roles;
 let departments;
 let managers;
