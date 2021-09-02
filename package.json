@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/mwinter1/hw12/issues"
   },
-  "homepage": "https://github.com/mwinter1/hw12#readme"
+  "homepage": "https://github.com/mwinter1/hw12#readme",
+  "dependencies": {
+    "console-table-printer": "^2.10.0",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.2",
+    "mysql": "^2.18.1",
+    "node": "^16.6.1",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  }
 }
